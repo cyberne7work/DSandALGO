@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-# define CAPACITY 5
+# define CAPACITY 10 // Pre-proccessor Macro
 void push(int);
 void delet();
 void display();
@@ -15,7 +15,7 @@ int main()
 {
     int ch,item;
         while(1){
-            printf("Stack Implementation Using Array\n");
+            printf("\nStack Implementation Using Array\n");
             printf("\n1.ADD\n");
             printf("2.pop\n");
             printf("3.Display\n");
